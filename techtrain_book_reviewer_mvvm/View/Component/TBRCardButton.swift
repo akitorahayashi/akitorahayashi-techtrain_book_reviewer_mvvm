@@ -10,6 +10,7 @@ import UIKit
 class TBRCardButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: .zero)
+        setupUI()
     }
     
     required init?(coder: NSCoder) {
@@ -25,7 +26,7 @@ class TBRCardButton: UIButton {
         layer.shadowRadius = 4
         
         setTitleColor(.accent, for: .normal)
-        titleLabel?.font = UIFont.systemFont(ofSize: 18)
+        titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         titleLabel?.textAlignment = .center
         
         heightAnchor.constraint(equalToConstant: 44).isActive = true

@@ -23,11 +23,18 @@ class SelectAuthVC: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Lifecycle methods
     override func loadView() {
         super.loadView()
-        setupUI()
+        self.setupUI()
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.setupButtonAction()
+    }
+    
+    // MARK: - setup UI
     func setupUI() {
         view.backgroundColor = .systemBackground
         
@@ -44,6 +51,7 @@ class SelectAuthVC: UIViewController {
         let buttonStack = UIStackView(arrangedSubviews: [showSignUpPageButton, showLogInPageButton])
         buttonStack.axis = .vertical
         buttonStack.spacing = 16
+        buttonStack.distribution = .fillEqually
         buttonStack.alignment = .fill
         buttonStack.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(buttonStack)
@@ -56,9 +64,22 @@ class SelectAuthVC: UIViewController {
             // buttonStack
             buttonStack.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16),
             buttonStack.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16),
-            buttonStack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16)
+            buttonStack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
         ])
         
+    }
+    
+    private func setupButtonAction() {
+        self.showSignUpPageButton.addTarget(self, action: #selector(signupButtonAction), for: .touchUpInside)
+        self.showLogInPageButton.addTarget(self, action: #selector(loginButtonAction), for: .touchUpInside)
+    }
+    
+    @objc private func signupButtonAction() {
+        self.coordinator?.jumpToSignUpView()
+    }
+    
+    @objc private func loginButtonAction() {
+        self.coordinator?.jumpToLogInView()
     }
     
 }
