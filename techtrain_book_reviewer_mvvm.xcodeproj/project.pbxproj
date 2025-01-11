@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064FD1D1EFDD4D4D1A4477B1 /* Pods_techtrain_book_reviewer_mvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331878CD44B585A376DC2969 /* Pods_techtrain_book_reviewer_mvvm.framework */; };
+		26E357B922CD6053DE191172 /* Pods_techtrain_book_reviewer_mvvmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D352B8E1A6F7D6CE83047 /* Pods_techtrain_book_reviewer_mvvmTests.framework */; };
+		5E1D3518F5D4440AF7030825 /* Pods_techtrain_book_reviewer_mvvmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0E78BD3FD08A2ED05DD16A /* Pods_techtrain_book_reviewer_mvvmUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0928E42D3245080075D2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0928C52D3245050075D2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0928CC2D3245050075D2B0;
+			remoteInfo = techtrain_book_reviewer_mvvm;
+		};
+		1B0928EE2D3245080075D2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0928C52D3245050075D2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0928CC2D3245050075D2B0;
+			remoteInfo = techtrain_book_reviewer_mvvm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0581ED7F92D8B88F5B519F68 /* Pods-techtrain_book_reviewer_mvvmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvmUITests.release.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvmUITests/Pods-techtrain_book_reviewer_mvvmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B0928CD2D3245050075D2B0 /* techtrain_book_reviewer_mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techtrain_book_reviewer_mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0928E32D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = techtrain_book_reviewer_mvvmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0928ED2D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = techtrain_book_reviewer_mvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8D352B8E1A6F7D6CE83047 /* Pods_techtrain_book_reviewer_mvvmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techtrain_book_reviewer_mvvmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF558B4C47FF0E612C6DCBA /* Pods-techtrain_book_reviewer_mvvm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvm.debug.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvm/Pods-techtrain_book_reviewer_mvvm.debug.xcconfig"; sourceTree = "<group>"; };
+		331878CD44B585A376DC2969 /* Pods_techtrain_book_reviewer_mvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techtrain_book_reviewer_mvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A1FA34EBC3C942BFB44C8A /* Pods-techtrain_book_reviewer_mvvmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvmTests.release.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvmTests/Pods-techtrain_book_reviewer_mvvmTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0E78BD3FD08A2ED05DD16A /* Pods_techtrain_book_reviewer_mvvmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techtrain_book_reviewer_mvvmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA59B10D444C340A73FF6D2C /* Pods-techtrain_book_reviewer_mvvmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvmTests.debug.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvmTests/Pods-techtrain_book_reviewer_mvvmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CB56A3796B00E3E565EAEB /* Pods-techtrain_book_reviewer_mvvmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvmUITests.debug.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvmUITests/Pods-techtrain_book_reviewer_mvvmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E63ECD5F9BF8F94040EFC188 /* Pods-techtrain_book_reviewer_mvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtrain_book_reviewer_mvvm.release.xcconfig"; path = "Target Support Files/Pods-techtrain_book_reviewer_mvvm/Pods-techtrain_book_reviewer_mvvm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1B0928F52D3245080075D2B0 /* Exceptions for "techtrain_book_reviewer_mvvm" folder in "techtrain_book_reviewer_mvvm" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1B0928CC2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1B0928CF2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1B0928F52D3245080075D2B0 /* Exceptions for "techtrain_book_reviewer_mvvm" folder in "techtrain_book_reviewer_mvvm" target */,
+			);
+			path = techtrain_book_reviewer_mvvm;
+			sourceTree = "<group>";
+		};
+		1B0928E62D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = techtrain_book_reviewer_mvvmTests;
+			sourceTree = "<group>";
+		};
+		1B0928F02D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = techtrain_book_reviewer_mvvmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0928CA2D3245050075D2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064FD1D1EFDD4D4D1A4477B1 /* Pods_techtrain_book_reviewer_mvvm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928E02D3245080075D2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E357B922CD6053DE191172 /* Pods_techtrain_book_reviewer_mvvmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928EA2D3245080075D2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D3518F5D4440AF7030825 /* Pods_techtrain_book_reviewer_mvvmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A112BE4AF0BD6B0FB1BCEC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				331878CD44B585A376DC2969 /* Pods_techtrain_book_reviewer_mvvm.framework */,
+				1B8D352B8E1A6F7D6CE83047 /* Pods_techtrain_book_reviewer_mvvmTests.framework */,
+				BE0E78BD3FD08A2ED05DD16A /* Pods_techtrain_book_reviewer_mvvmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BB90F902004291852484A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF558B4C47FF0E612C6DCBA /* Pods-techtrain_book_reviewer_mvvm.debug.xcconfig */,
+				E63ECD5F9BF8F94040EFC188 /* Pods-techtrain_book_reviewer_mvvm.release.xcconfig */,
+				CA59B10D444C340A73FF6D2C /* Pods-techtrain_book_reviewer_mvvmTests.debug.xcconfig */,
+				A9A1FA34EBC3C942BFB44C8A /* Pods-techtrain_book_reviewer_mvvmTests.release.xcconfig */,
+				D4CB56A3796B00E3E565EAEB /* Pods-techtrain_book_reviewer_mvvmUITests.debug.xcconfig */,
+				0581ED7F92D8B88F5B519F68 /* Pods-techtrain_book_reviewer_mvvmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B0928C42D3245050075D2B0 = {
+			isa = PBXGroup;
+			children = (
+				1B0928CF2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */,
+				1B0928E62D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests */,
+				1B0928F02D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests */,
+				1B0928CE2D3245050075D2B0 /* Products */,
+				0BB90F902004291852484A1D /* Pods */,
+				0A112BE4AF0BD6B0FB1BCEC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0928CE2D3245050075D2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0928CD2D3245050075D2B0 /* techtrain_book_reviewer_mvvm.app */,
+				1B0928E32D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests.xctest */,
+				1B0928ED2D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0928CC2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0928F62D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvm" */;
+			buildPhases = (
+				043B3A46BCB1DE4A00FA3A70 /* [CP] Check Pods Manifest.lock */,
+				1B0928C92D3245050075D2B0 /* Sources */,
+				1B0928CA2D3245050075D2B0 /* Frameworks */,
+				1B0928CB2D3245050075D2B0 /* Resources */,
+				FDB634AB37E98B5CC6E55261 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1B0928CF2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */,
+			);
+			name = techtrain_book_reviewer_mvvm;
+			productName = techtrain_book_reviewer_mvvm;
+			productReference = 1B0928CD2D3245050075D2B0 /* techtrain_book_reviewer_mvvm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B0928E22D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0928FB2D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvmTests" */;
+			buildPhases = (
+				7F8952A23DC7948562464F0D /* [CP] Check Pods Manifest.lock */,
+				1B0928DF2D3245080075D2B0 /* Sources */,
+				1B0928E02D3245080075D2B0 /* Frameworks */,
+				1B0928E12D3245080075D2B0 /* Resources */,
+				DB96BA29E9DB8A5A9098C9A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0928E52D3245080075D2B0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B0928E62D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests */,
+			);
+			name = techtrain_book_reviewer_mvvmTests;
+			productName = techtrain_book_reviewer_mvvmTests;
+			productReference = 1B0928E32D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B0928EC2D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0928FE2D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvmUITests" */;
+			buildPhases = (
+				6F489A115B1693DE2D7DA874 /* [CP] Check Pods Manifest.lock */,
+				1B0928E92D3245080075D2B0 /* Sources */,
+				1B0928EA2D3245080075D2B0 /* Frameworks */,
+				1B0928EB2D3245080075D2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0928EF2D3245080075D2B0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B0928F02D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests */,
+			);
+			name = techtrain_book_reviewer_mvvmUITests;
+			productName = techtrain_book_reviewer_mvvmUITests;
+			productReference = 1B0928ED2D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0928C52D3245050075D2B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1B0928CC2D3245050075D2B0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1B0928E22D3245080075D2B0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1B0928CC2D3245050075D2B0;
+					};
+					1B0928EC2D3245080075D2B0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1B0928CC2D3245050075D2B0;
+					};
+				};
+			};
+			buildConfigurationList = 1B0928C82D3245050075D2B0 /* Build configuration list for PBXProject "techtrain_book_reviewer_mvvm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0928C42D3245050075D2B0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1B0928CE2D3245050075D2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0928CC2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */,
+				1B0928E22D3245080075D2B0 /* techtrain_book_reviewer_mvvmTests */,
+				1B0928EC2D3245080075D2B0 /* techtrain_book_reviewer_mvvmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0928CB2D3245050075D2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928E12D3245080075D2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928EB2D3245080075D2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043B3A46BCB1DE4A00FA3A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techtrain_book_reviewer_mvvm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F489A115B1693DE2D7DA874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techtrain_book_reviewer_mvvmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8952A23DC7948562464F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techtrain_book_reviewer_mvvmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB96BA29E9DB8A5A9098C9A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvmTests/Pods-techtrain_book_reviewer_mvvmTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvmTests/Pods-techtrain_book_reviewer_mvvmTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvmTests/Pods-techtrain_book_reviewer_mvvmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB634AB37E98B5CC6E55261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvm/Pods-techtrain_book_reviewer_mvvm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvm/Pods-techtrain_book_reviewer_mvvm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-techtrain_book_reviewer_mvvm/Pods-techtrain_book_reviewer_mvvm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0928C92D3245050075D2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928DF2D3245080075D2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0928E92D3245080075D2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0928E52D3245080075D2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0928CC2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */;
+			targetProxy = 1B0928E42D3245080075D2B0 /* PBXContainerItemProxy */;
+		};
+		1B0928EF2D3245080075D2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0928CC2D3245050075D2B0 /* techtrain_book_reviewer_mvvm */;
+			targetProxy = 1B0928EE2D3245080075D2B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B0928F72D3245080075D2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF558B4C47FF0E612C6DCBA /* Pods-techtrain_book_reviewer_mvvm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = techtrain_book_reviewer_mvvm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B0928F82D3245080075D2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63ECD5F9BF8F94040EFC188 /* Pods-techtrain_book_reviewer_mvvm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = techtrain_book_reviewer_mvvm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B0928F92D3245080075D2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B0928FA2D3245080075D2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0928FC2D3245080075D2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA59B10D444C340A73FF6D2C /* Pods-techtrain_book_reviewer_mvvmTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techtrain_book_reviewer_mvvm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/techtrain_book_reviewer_mvvm";
+			};
+			name = Debug;
+		};
+		1B0928FD2D3245080075D2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A1FA34EBC3C942BFB44C8A /* Pods-techtrain_book_reviewer_mvvmTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techtrain_book_reviewer_mvvm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/techtrain_book_reviewer_mvvm";
+			};
+			name = Release;
+		};
+		1B0928FF2D3245080075D2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CB56A3796B00E3E565EAEB /* Pods-techtrain_book_reviewer_mvvmUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = techtrain_book_reviewer_mvvm;
+			};
+			name = Debug;
+		};
+		1B0929002D3245080075D2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0581ED7F92D8B88F5B519F68 /* Pods-techtrain_book_reviewer_mvvmUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7R4ZP8WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akitorahayashi.techtrain-book-reviewer-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = techtrain_book_reviewer_mvvm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0928C82D3245050075D2B0 /* Build configuration list for PBXProject "techtrain_book_reviewer_mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0928F92D3245080075D2B0 /* Debug */,
+				1B0928FA2D3245080075D2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0928F62D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0928F72D3245080075D2B0 /* Debug */,
+				1B0928F82D3245080075D2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0928FB2D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0928FC2D3245080075D2B0 /* Debug */,
+				1B0928FD2D3245080075D2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0928FE2D3245080075D2B0 /* Build configuration list for PBXNativeTarget "techtrain_book_reviewer_mvvmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0928FF2D3245080075D2B0 /* Debug */,
+				1B0929002D3245080075D2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B0928C52D3245050075D2B0 /* Project object */;
+}
