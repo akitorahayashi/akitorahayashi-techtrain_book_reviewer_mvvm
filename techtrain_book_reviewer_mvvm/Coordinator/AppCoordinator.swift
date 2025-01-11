@@ -29,7 +29,7 @@ class AppCoordinator: AppCoordinatorProtocol {
     func start() {
         let selectAuthCoordinator = SelectAuthCoordinator(navigationController: self.navigationController)
         self.seletAuthCoordinator = selectAuthCoordinator
-        let selectAuthVC = SelectAuthVC(coordinator: selectAuthCoordinator)
+        let selectAuthVC = SelectAuthVC(selectAuthCoordinator: selectAuthCoordinator)
         self.navigationController.setViewControllers([selectAuthVC], animated: false)
     }
 }

@@ -7,25 +7,33 @@
 
 import UIKit
 
+@MainActor
 protocol SelectAuthCoordinatorProtocol: AnyObject {
-    func jumpToSignUpView()
-    func jumpToLogInView()
+    func navigateToSignUpView()
+    func navigateToLogInView()
 }
 
+@MainActor
 class SelectAuthCoordinator: SelectAuthCoordinatorProtocol {
-    
     let navigationController: UINavigationController
-    
+    // child coordinator
+    private var authInputCoordinator: AuthInputCoordinator?
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
     
-    func jumpToSignUpView() {
-        
+    func navigateToSignUpView() {
+        let authInputCoordinator = AuthInputCoordinator(navigationController: self.navigationController)
+        self.authInputCoordinator = authInputCoordinator
+        let authInputVC = AuthInputVC(authMode: .signup, authInputCoordinator: authInputCoordinator)
+        navigationController.pushViewController(authInputVC, animated: true)
     }
     
-    func jumpToLogInView() {
-        
+    func navigateToLogInView() {
+        let authInputCoordinator = AuthInputCoordinator(navigationController: self.navigationController)
+        self.authInputCoordinator = authInputCoordinator
+        let authInputVC = AuthInputVC(authMode: .login, authInputCoordinator: authInputCoordinator)
+        navigationController.pushViewController(authInputVC, animated: true)
     }
     
 }
